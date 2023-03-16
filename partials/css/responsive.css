@@ -1,0 +1,337 @@
+@media (min-width: 1351px) and (max-width: 1500px) {}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    .text-bg h1 {
+        font-size: 50px;
+        line-height: 65px;
+        padding: 0 0 10px 0;
+    }
+    .text-bg h2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 20px;
+        line-height: 25px;
+        padding: 0 0 20px 0;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 1140px) and (max-width: 1199px) {
+    .text-bg h1 {
+        font-size: 49px;
+        line-height: 58px;
+        padding: 0 0 10px 0;
+    }
+    .text-bg h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 0 20px 0;
+    }
+    ul.easy li a {
+        font-size: 21px;
+    }
+    ul.social_icon li a {
+        font-size: 16px;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1139px) {
+    .text-bg h1 {
+        font-size: 40px;
+        line-height: 50px;
+        padding: 0 0 10px 0;
+    }
+    .text-bg h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 0 20px 0;
+    }
+    .read_more{
+        padding: 8px 0;
+    }
+    ul.easy li a {
+        font-size: 21px;
+    }
+    ul.social_icon li a {
+        font-size: 16px;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 991px) {
+    .text-bg h1 {
+        font-size: 41px;
+        line-height: 50px;
+        padding: 0 0 10px 0;
+    }
+    .text-bg h2 {
+        font-size: 31px;
+        line-height: 35px;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 0 20px 0;
+    }
+    .read_more{
+        padding: 8px 0;
+    }
+    ul.easy li a {
+        font-size: 21px;
+    }
+    ul.social_icon li a {
+        font-size: 16px;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 855px) and (max-width: 949px) {
+    .text-bg h1 {
+        font-size: 37px;
+        line-height: 40px;
+        padding-bottom: 10px;
+    }
+    .text-bg h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 0 0 20px 0;
+    }
+    .read_more{
+        padding: 6px 0;
+    }
+    ul.easy li a {
+        font-size: 21px;
+    }
+    ul.social_icon li a {
+        font-size: 16px;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 854px) {
+    .text-bg {
+        margin-left: 1%;
+    }
+    .text-bg p{
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        padding: 10px 0 20px 0;
+    }
+    .read_more{
+        padding: 6px 0;
+    }
+    .text-bg h1 {
+        font-size: 30px;
+        line-height: 35px;
+        padding: 0;
+    }
+    .text-bg h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    ul.easy li a {
+        font-size: 21px;
+    }
+    ul.social_icon li a {
+        font-size: 16px;
+    }
+    .header::after {
+        display: none;
+    }
+}
+
+@media (min-width: 611px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .about_img {
+        padding-bottom: 20px;
+    }
+    ul.btn li {
+        padding: 0 18px;
+    }
+    .text-bg {
+        max-width: inherit;
+        padding-top: 20px;
+        margin: auto;
+    }
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 41px;
+        line-height: 45px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    ul.location_icon li {
+        padding-bottom: 20px;
+    }
+    .work_img {
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    .web{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .header::after {
+        display: none;
+    }
+    .text-bg p{
+        padding: 0;
+    }
+}
+
+@media (max-width: 610px) {
+    .header {
+        padding: 30px 0px 15px 0px;
+    }
+    .header::after {
+        background: inherit;
+        position: inherit;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 6px;
+        text-align: center;
+    }
+    .titlepage h2 {
+        font-size: 37px;
+    }
+    .down_btn a {
+        padding: 7px 16px;
+    }
+    ul.btn li {
+        padding: 0px 7px;
+    }
+    #sidebarCollapse {
+        padding-right: 8px;
+    }
+    .banner_main {
+        padding: 0px 0 40px 0;
+    }
+    .text-bg {
+        margin: auto;
+    }
+    .text-bg h1 {
+        font-size: 34px;
+        line-height: 40px;
+        padding-top: 10px;
+    }
+    .text-bg p{
+        padding-bottom: 0;
+    }
+    .about_img {
+        padding-bottom: 20px;
+    }
+    .padding_left0 {
+        padding-left: 15px;
+    }
+    .padding_right0 {
+        padding-right: 15px;
+    }
+    .work_img {
+        padding-right: 0;
+        padding-top: 30px;
+    }
+    .main_form .send_btn {
+        margin-bottom: 30px;
+    }
+    ul.location_icon li {
+        padding-bottom: 20px;
+    }
+    ul.Menu_footer,
+    ul.social_icon {
+        padding-bottom: 20px;
+    }
+    .web{
+        display: none;
+    }
+    .mobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .header::after {
+        display: none;
+    }
+
+    .long-txt input[type="checkbox"]{
+        line-height: inherit;
+        position: relative;
+        top: 3px;
+    }
+   
+    .no-mt{
+        margin-top: 0;
+    }
+
+    .section-collaborate .mb-3 .coll-checkbox-group .lh-0{
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 440px) {
+    .full-txt{
+        display: none;
+    }
+    .small-txt{
+        display: block;
+   }
+   
+   .invite-receiver{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.075);
+    }
+
+    .invite-receiver .mb-3{
+    width: 100%;
+    margin-bottom: .5rem !important;
+   }
+}

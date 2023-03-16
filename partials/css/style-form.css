@@ -1,0 +1,151 @@
+.header::after{
+    background: none;
+}
+
+.form-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-buttons .btn{
+    width: 40%;
+}
+
+.form-check{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5% 0 1%;
+}
+
+.language-checkbox-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.language-checkbox-group label{
+    margin-left: 10%;
+}
+
+.lang-other{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.lang-other label{
+    margin-left: 2%;
+}
+
+.lang-other input[type="text"]{
+    margin-left: 2%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.hidden{
+    display: none;
+}
+
+.card-title{
+    margin: 0;
+}
+
+.section-checkbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.section-collaborate .mb-3 .coll-checkbox-group{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    line-height: initial;
+}
+
+.coll-checkbox-group label{
+    margin-left: 2%;
+}
+
+.qualities{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.qualities button{
+    width: max-content;
+}
+
+.section-collaborate{
+    display: none;
+    animation: section-fade .5s;
+}
+
+#form-section-1{
+    display: block;
+}
+
+@keyframes section-fade {
+    from{ opacity: 0;}
+    to{ opacity: 1;}
+}
+
+.pdf-buttons{
+    display: none;
+    margin: 5% auto 3% auto;    
+}
+
+.small-txt{
+    display: none;
+}
+
+.result{
+    display: none;
+    width: 50%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.70);
+    margin: 10% auto auto auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+}
+
+.pred{
+    font-size: 30px;
+    margin: 0 0 10px 0;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btns button{
+    margin: 25px 20px 0 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 140%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}

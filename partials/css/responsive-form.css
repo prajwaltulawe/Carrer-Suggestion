@@ -1,0 +1,35 @@
+/* FORM */
+form{
+     width: 80%;
+     background-color: #fff;
+     margin: auto;
+     padding: 5%;
+     border-radius: 1rem;
+}
+
+span{
+     font-size: .9rem ;
+}
+@media (prefers-color-scheme: dark) {
+     form{
+          background-color: #2d2424  !important;
+     }
+     .form-control, input[type="checkbox"], input[type="radio"]{
+          background-color: #553131;
+          accent-color: #553131;
+          color: rgba(255, 255, 255, 0.9);
+     }
+     h3, label{
+          color: rgba(255, 255, 255, 0.9);
+     }
+     .btn-primary{
+          color: rgba(255, 255, 255, 0.9);
+          background-color: #5a4e86;
+          border-color: #007bff8c;
+     }
+     .btn-info {
+          color: rgba(255, 255, 255, 0.9);
+          background-color: #0c6370;
+          border-color: #0a4d57;
+     }       
+}

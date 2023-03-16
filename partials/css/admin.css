@@ -1,0 +1,39 @@
+
+.align-center{
+    width: 100%;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+}
+
+.card i{
+    font-size: 7rem;
+}
+
+.btn-width{
+    width: 80%;
+    margin: auto;
+}
+
+.invites-card{
+    width: 25%;
+}
+
+.dataTables_wrapper{
+    background-color: azure !important;
+    padding: 5% 5% 3% 5%;
+    border-radius: 2rem;
+    width: 100%;
+}
+
+.tbody tr.odd{
+    background-color: transparent ;
+}
+
+h3{
+    color: black;
+}
