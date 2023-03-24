@@ -43,7 +43,7 @@
             session_start();
             if(isset($_SESSION['useremail']) && $_SESSION['loggedin'] = true ) {
                echo '
-               <form class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-10" id="form" method="post" action="" runat="server">
+               <form class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-10" method="post" action="" runat="server">
                   <div class="section-collaborate" id="form-section-1">
                      <div class="mb-3">
                         <h2 for="ideas-1" class="form-label mt-4">Assess Yourself </h2>
